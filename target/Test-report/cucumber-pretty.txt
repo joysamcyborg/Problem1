@@ -1,0 +1,16 @@
+@myTest
+Feature: To test Problem1 page
+
+  Scenario: Navigate to problem page and verify individual values [90m# problem1.feature:4[0m
+    [32mGiven [0m[32mI load Problem1 Page[0m                                    [90m# stepDefinition.i_load_problem1_page()[0m
+    [32mWhen [0m[32mthe Problem page is loaded[0m                               [90m# stepDefinition.i_enter_and()[0m
+    [32mThen [0m[32mverify the right number of values appear on the screen[0m   [90m# stepDefinition.verify_the_right_number_of_values_appear_on_the_screen()[0m
+    [32mThen [0m[32mverify values on the screen are greater than 0[0m           [90m# stepDefinition.verify_values_on_the_screen_are_greater_than_0()[0m
+    [32mThen [0m[32mtotal balance is correct[0m                                 [90m# stepDefinition.total_balance_is_correct()[0m
+    [32mThen [0m[32mvalues are formatted as currencies[0m                       [90m# stepDefinition.values_are_formatted_as_currencies()[0m
+    [31mThen [0m[31mtotal balance matches the sum of the values[0m              [90m# stepDefinition.total_balance_matches_the_sum_of_the_values()[0m
+      [31morg.junit.ComparisonFailure: Check if balanced matches sum of values  expected:<$1000[,000].00> but was:<$1000[].00>
+      	at org.junit.Assert.assertEquals(Assert.java:115)
+      	at com.massmutual.problem1.stepDefinition.total_balance_matches_the_sum_of_the_values(stepDefinition.java:126)
+      	at ✽.Then total balance matches the sum of the values(problem1.feature:12)
+      [0m

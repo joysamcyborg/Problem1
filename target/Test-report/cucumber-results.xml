@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.088513">
+<testcase classname="To test Problem1 page" name="Navigate to problem page and verify individual values" time="10.088513">
+<failure message="org.junit.ComparisonFailure: Check if balanced matches sum of values  expected:&lt;$1000[,000].00&gt; but was:&lt;$1000[].00&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at com.massmutual.problem1.stepDefinition.total_balance_matches_the_sum_of_the_values(stepDefinition.java:126)&#13;&#10;&#9;at ✽.Then total balance matches the sum of the values(problem1.feature:12)&#13;&#10;"><![CDATA[Given I load Problem1 Page..................................................passed
+When the Problem page is loaded.............................................passed
+Then verify the right number of values appear on the screen.................passed
+Then verify values on the screen are greater than 0.........................passed
+Then total balance is correct...............................................passed
+Then values are formatted as currencies.....................................passed
+Then total balance matches the sum of the values............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Check if balanced matches sum of values  expected:<$1000[,000].00> but was:<$1000[].00>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at com.massmutual.problem1.stepDefinition.total_balance_matches_the_sum_of_the_values(stepDefinition.java:126)
+	at ✽.Then total balance matches the sum of the values(problem1.feature:12)
+]]></failure>
+</testcase>
+</testsuite>

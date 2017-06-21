@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^values are formatted as currencies$",
+    "steps": [
+      {
+        "name": "values are formatted as currencies",
+        "aggregatedDurations": {
+          "average": 0.000092764,
+          "median": 0.000092764
+        },
+        "durations": [
+          {
+            "duration": 0.000092764,
+            "location": "problem1.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^the Problem page is loaded$",
+    "steps": [
+      {
+        "name": "the Problem page is loaded",
+        "aggregatedDurations": {
+          "average": 0.005362146,
+          "median": 0.005362146
+        },
+        "durations": [
+          {
+            "duration": 0.005362146,
+            "location": "problem1.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify the right number of values appear on the screen$",
+    "steps": [
+      {
+        "name": "verify the right number of values appear on the screen",
+        "aggregatedDurations": {
+          "average": 0.000072632,
+          "median": 0.000072632
+        },
+        "durations": [
+          {
+            "duration": 0.000072632,
+            "location": "problem1.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^total balance is correct$",
+    "steps": [
+      {
+        "name": "total balance is correct",
+        "aggregatedDurations": {
+          "average": 0.000093159,
+          "median": 0.000093159
+        },
+        "durations": [
+          {
+            "duration": 0.000093159,
+            "location": "problem1.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^verify values on the screen are greater than 0$",
+    "steps": [
+      {
+        "name": "verify values on the screen are greater than 0",
+        "aggregatedDurations": {
+          "average": 0.00009158,
+          "median": 0.00009158
+        },
+        "durations": [
+          {
+            "duration": 0.00009158,
+            "location": "problem1.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I load Problem1 Page$",
+    "steps": [
+      {
+        "name": "I load Problem1 Page",
+        "aggregatedDurations": {
+          "average": 4.140186727,
+          "median": 4.140186727
+        },
+        "durations": [
+          {
+            "duration": 4.140186727,
+            "location": "problem1.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

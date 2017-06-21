@@ -1,0 +1,135 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4341924846,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Navigate to problem page and verify individual values",
+        "description": "",
+        "id": "to-test-problem1-page;navigate-to-problem-page-and-verify-individual-values",
+        "after": [
+          {
+            "result": {
+              "duration": 1599272336,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4140186727,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I load Problem1 Page",
+            "match": {
+              "location": "stepDefinition.i_load_problem1_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5362146,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the Problem page is loaded",
+            "match": {
+              "location": "stepDefinition.i_enter_and()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72632,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the right number of values appear on the screen",
+            "match": {
+              "location": "stepDefinition.verify_the_right_number_of_values_appear_on_the_screen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91580,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify values on the screen are greater than 0",
+            "match": {
+              "location": "stepDefinition.verify_values_on_the_screen_are_greater_than_0()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93159,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "total balance is correct",
+            "match": {
+              "location": "stepDefinition.total_balance_is_correct()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92764,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "values are formatted as currencies",
+            "match": {
+              "location": "stepDefinition.values_are_formatted_as_currencies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1416722,
+              "error_message": "org.junit.ComparisonFailure: Check if balanced matches sum of values  expected:\u003c$1000[,000].00\u003e but was:\u003c$1000[].00\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat com.massmutual.problem1.stepDefinition.total_balance_matches_the_sum_of_the_values(stepDefinition.java:126)\r\n\tat ✽.Then total balance matches the sum of the values(problem1.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "total balance matches the sum of the values",
+            "match": {
+              "location": "stepDefinition.total_balance_matches_the_sum_of_the_values()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test Problem1 page",
+    "description": "",
+    "id": "to-test-problem1-page",
+    "keyword": "Feature",
+    "uri": "problem1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@myTest"
+      }
+    ]
+  }
+]
